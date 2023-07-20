@@ -13,14 +13,14 @@ GH Actions are set to:
 Feel free to fork it for "publishing" your own notebooks, and [contact me](mailto:matteo.bonfanti@fht.org) with suggestions for improvements.
 
 
-An html version of the notebooks is accessible [here](https://matbonfanti.github.io/project-template/).
+An html version of the notebooks is accessible [here](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/).
 
 
 
 
 ## Test Notebook
 
-Links: [jupyter notebook](prova.ipynb) and [html file](https://matbonfanti.github.io/project-template/prova.html).
+Links: [jupyter notebook](prova.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/prova.html).
 
 This is a **test notebook**. A very basic example of notebook, just to exemplify how the
 GitHub Actions defined in this repository work.
@@ -36,7 +36,7 @@ included in the README and html index.
 
 ## Test HTML File
 
-Links: [html file](https://matbonfanti.github.io/project-template/prova2.html).
+Links: [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/prova2.html).
 
 This is a **test HTML file**. This example shows how HTML files can be directly included in the 
 final repository and linked from the repository index.
