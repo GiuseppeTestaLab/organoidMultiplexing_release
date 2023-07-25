@@ -19,7 +19,7 @@ genes.gtf (gex-GRCh38-2020-A gtf), KOLF2C1 wgs data from hipsci, single cell eqt
 
 In addition pipeline for consensus deconvolution can be found at ... and its docker image
 
-Finally VarAdata were generated using the SCanSNP version available at https://github.com/GiuseppeTestaLab/SCanSNP specifying --mode matrixgen
+Finally VarAdata were generated using the SCanSNP version ... specifying --mode matrixgen
 
 
 An html version of the notebooks is accessible [here](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/).
