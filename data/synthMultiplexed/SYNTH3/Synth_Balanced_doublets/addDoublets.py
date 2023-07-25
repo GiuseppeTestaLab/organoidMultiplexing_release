@@ -11,10 +11,10 @@ import numpy as np
 
 
 
-barcodeList=pd.read_csv("/hpcnfs/scratch/temporary/Dav_vc/0.2_SynthII_creation/SYNTH3/Synth_Balanced_noDoublets/Barcodes-IDs.tsv", header= None , sep = "\t", names = ["Barcode","ID"])
+barcodeList=pd.read_csv("/SYNTH3/Synth_Balanced_noDoublets/Barcodes-IDs.tsv", header= None , sep = "\t", names = ["Barcode","ID"])
 targetDblRatio=0.1
-inputBam="/hpcnfs/scratch/temporary/Dav_vc/0.2_SynthII_creation/SYNTH3/Synth_Balanced_noDoublets/SilicoMultiplexed.bam"
-outfile="/hpcnfs/scratch/temporary/Dav_vc/0.2_SynthII_creation/SYNTH3/Synth_Balanced_doublets/SilicoMultiplexed.dblAdded.bam"
+inputBam="/SYNTH3/Synth_Balanced_noDoublets/SilicoMultiplexed.bam"
+outfile="/SYNTH3/Synth_Balanced_doublets/SilicoMultiplexed.dblAdded.bam"
 nThreads=10
 WD=os.getcwd()+'/'
 TEMPDIR=WD+'tempdir/'
