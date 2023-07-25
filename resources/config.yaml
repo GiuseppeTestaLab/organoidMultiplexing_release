@@ -1,36 +1,151 @@
 
-title: "Project Name - Long version"
-short_title: "Project"
+title: "Organoid Multiplexing"
+short_title: "Organoid Multiplexing"
 subtitle: |
-   Template github repository that can be used e.g. for the publication of the code when submitting a paper. 
+   This repo contains the code used to analyze Single cell data of organoid Multiplexing
    
-   GH Actions are set to:
+   ![plot](./data/resources/ghFig/GitHome.png)
    
-   1. convert the ipynb to html, create an index html page and store all the pages in a separate branch, where they can be published as static website with github pages
-   2. create a README index file for the repo that contains all the links to the html and ipynb files.
    
-   Feel free to fork it for "publishing" your own notebooks, and [contact me](mailto:matteo.bonfanti@fht.org) with suggestions for improvements.
+   Docker image for main analysis can be retrieved via docker pull testalab/downstream:organoidMultiplexing-1.1.0
+   
+   After alignment of each sample, Cellranger's output: features, barcodes and count matrix should be placed in data/Sample*/filtered_feature_bc_matrix respective directories
+   
+   Additional resources should be placed in data/resources. 
+   
+   genes.gtf (gex-GRCh38-2020-A gtf), KOLF2C1 wgs data from hipsci, single cell eqtl data from jerber et al. (https://doi.org/10.1038/s41588-021-00801-6)
+   
+   
+   In addition pipeline for consensus deconvolution can be found at ... and its docker image
+   
+   Finally VarAdata were generated using the SCanSNP version ... specifying --mode matrixgen
+
 
 final: |
-   Here you can put some final remarks.
-   These will be appended at the end of the README / index page.
+   Repository will be complete upon publication
 
 pages:
 
-  Test Notebook:
-    notebook: "prova.ipynb"
+  01_HVGs_joining.ipynb:
+    notebook: "00_HVGs/01_HVGs_joining.ipynb"
     description: |
-      This is a **test notebook**. A very basic example of notebook, just to exemplify how the
-      GitHub Actions defined in this repository work.
-      
-      If you want to add your own notebooks, just put the ipynb files in the root project folder and then
-      customize the "pages" section of the [config.yaml](https://github.com/matbonfanti/project-template/blob/main/resources/config.yaml)
-      file by including the notebooks that need to be indexed. The "notebook" attribute defines the name
-      of the ipynb file and the "description" attribute contains a descriptive string that will be
-      included in the README and html index.
 
-  Test HTML File:
-    notebook: "prova2.html"
+  01.1_Dataset_Preprocessing_DownD50.ipynb:
+    notebook: "01_PreProcess/01.1_Dataset_Preprocessing_DownD50.ipynb"
     description: |
-      This is a **test HTML file**. This example shows how HTML files can be directly included in the 
-      final repository and linked from the repository index.
+
+  01.2_Dataset_Preprocessing_UpD50.ipynb:
+    notebook: "01_PreProcess/01.2_Dataset_Preprocessing_UpD50.ipynb"
+    description: |
+
+  01.3_Dataset_Preprocessing_DownD100.ipynb:
+    notebook: "01_PreProcess/01.3_Dataset_Preprocessing_DownD100.ipynb"
+    description: |
+
+  01.4_Dataset_Preprocessing_UpD100_1.ipynb:
+    notebook: "01_PreProcess/01.4_Dataset_Preprocessing_UpD100_1.ipynb"
+    description: |
+
+  01.5_Dataset_Preprocessing_UpD100_2.ipynb:
+    notebook: "01_PreProcess/01.5_Dataset_Preprocessing_UpD100_2.ipynb"
+    description: |
+
+  01.6_Dataset_Preprocessing_DownD250.ipynb:
+    notebook: "01_PreProcess/01.6_Dataset_Preprocessing_DownD250.ipynb"
+    description: |
+
+  01.7_Dataset_Preprocessing_UpD300.ipynb:
+    notebook: "01_PreProcess/01.7_Dataset_Preprocessing_UpD300.ipynb"
+    description: |
+
+  02_Dataset_Merging.ipynb:
+    notebook: "01_PreProcess/02_Dataset_Merging.ipynb"
+    description: |
+
+  03_Dataset_Not_Integrated_JointScale.ipynb:
+    notebook: "01_PreProcess/03_Dataset_Not_Integrated_JointScale.ipynb"
+    description: |
+
+  04_Dataset_Integration_Harmony.ipynb:
+    notebook: "01_PreProcess/04_Dataset_Integration_Harmony.ipynb"
+    description: |
+
+  05_Clusters_Annotation_All.ipynb:
+    notebook: "01_PreProcess/05_Clusters_Annotation_All.ipynb"
+    description: |
+
+  05.2_inGestion.ipynb:
+    notebook: "02_Exploration/05.2_inGestion.ipynb"
+    description: |
+
+  06_Exploration.ipynb:
+    notebook: "02_Exploration/06_Exploration.ipynb"
+    description: |
+
+  07_Paga.ipynb:
+    notebook: "02_Exploration/07_Paga.ipynb"
+    description: |
+
+  08_DA.ipynb:
+    notebook: "02_Exploration/08_DA.ipynb"
+    description: |
+
+  08.0_Astrocytes_HVGs.ipynb:
+    notebook: "03_Trajectories/08.0_Astrocytes_HVGs.ipynb"
+    description: |
+
+  08.1_Astrocytes_Lineage.ipynb:
+    notebook: "03_Trajectories/08.1_Astrocytes_Lineage.ipynb"
+    description: |
+
+  09.0_Cajal_HVGs.ipynb:
+    notebook: "03_Trajectories/09.0_Cajal_HVGs.ipynb"
+    description: |
+
+  09.1_Cajal_Lineage.ipynb:
+    notebook: "03_Trajectories/09.1_Cajal_Lineage.ipynb"
+    description: |
+
+  10.0_Exc_HVGs.ipynb:
+    notebook: "03_Trajectories/10.0_Exc_HVGs.ipynb"
+    description: |
+
+  10.1_Exc_Lineage.ipynb:
+    notebook: "03_Trajectories/10.1_Exc_Lineage.ipynb"
+    description: |
+
+  11.0_Interneurons_HVGs.ipynb:
+    notebook: "03_Trajectories/11.0_Interneurons_HVGs.ipynb"
+    description: |
+
+  11.1_Interneurons_Lineage.ipynb:
+    notebook: "03_Trajectories/11.1_Interneurons_Lineage.ipynb"
+    description: |
+
+  12.0_MigratingNeurons_HVGs.ipynb:
+    notebook: "03_Trajectories/12.0_MigratingNeurons_HVGs.ipynb"
+    description: |
+
+  12.1_MigratingNeurons_Lineage.ipynb:
+    notebook: "03_Trajectories/12.1_MigratingNeurons_Lineage.ipynb"
+    description: |
+
+  13.0_varAnndata_prep_new.ipynb:
+    notebook: "04_ASE/13.0_varAnndata_prep_new.ipynb"
+    description: |
+
+  13.1_SantyCheck.ipynb:
+    notebook: "04_ASE/13.1_SantyCheck.ipynb"
+    description: |
+
+  13.2_ASE_explo.ipynb:
+    notebook: "04_ASE/13.2_ASE_explo.ipynb"
+    description: |
+
+  15_Lines_Balance.ipynb:
+    notebook: "05_LinesBalance/15_Lines_Balance.ipynb"
+    description: |
+
+  16_Tools_comparison.ipynb:
+    notebook: "05_LinesBalance/16_Tools_comparison.ipynb"
+    description: |
