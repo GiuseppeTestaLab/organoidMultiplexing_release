@@ -1,0 +1,11 @@
+leidenAnnotated_colors:
+  CajalR_like: '#1f77b4'
+  GlutamatergicNeurons_early: '#ff7f0e'
+  GlutamatergicNeurons_late: '#279e68'
+  Interneurons: '#d62728'
+  Interneurons_GAD2: '#aa40fc'
+  MigratingNeurons: '#8c564b'
+  Neurons: '#e377c2'
+  OuterRadialGliaAstrocytes: '#b5bd61'
+  ProliferatingProgenitors: '#17becf'
+  RadialGliaProgenitors: '#aec7e8'

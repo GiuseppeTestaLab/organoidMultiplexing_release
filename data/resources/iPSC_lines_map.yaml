@@ -1,0 +1,126 @@
+
+lines:
+  "3391B":
+    oldName : "3391B"
+    oldNameHeader : "X3391B"
+    newName : "CTL01"
+    color : "#DBB807"
+  "809":
+    oldName : "809"
+    oldNameHeader : "X809"
+    newName : "CTL04E"
+    color : "#FF0054"
+  "MIFF1":
+    oldName : "MIFF1"
+    oldNameHeader : "MIFF1"
+    newName : "CTL02A"
+    color : "#7B00FF"
+  "KOLF":
+    oldName : "KOLF"
+    oldNameHeader : "KOLF"
+    newName : "CTL08A"
+    color : "#0FB248"
+  "A15441":
+    oldName : "A15441"
+    oldNameHeader : "A15441"
+    newName : "WVS04A"
+    color : "#64f5d9"
+  "DESTa":
+    oldName : "DESTa"
+    oldNameHeader : "DESTa"
+    newName : "WVS02A"
+    color : "#FF00CC"
+  "SA2":
+    oldName : "SA2"
+    oldNameHeader : "SA2"
+    newName : "WVS03B"
+    color : "#99FF00"
+  "A15461":
+    oldName : "A15461"
+    oldNameHeader : "A15461"
+    newName : "CTL09A"
+    color : "#FFFF00"
+  "CROLE":
+    oldName : "CROLE"
+    oldNameHeader : "CROLE"
+    newName : "WVS01"
+    color : "#006666"
+  "CFG":
+    oldName : "CFG"
+    oldNameHeader : "CFG"
+    newName : "CFG"
+    color : "#8f5800"
+  "doublet":
+    oldName : "doublet"
+    oldNameHeader : "doublet"
+    newName : "doublet"
+    color : "#403b3b"
+  "singlet":
+    oldName : "singlet"
+    oldNameHeader : "singlet"
+    newName : "singlet"
+    color : "#282f9c"
+  "LowQuality":
+    color : "#a8a5a5"
+    oldName : "LowQuality"
+    oldNameHeader : "LowQuality"
+    newName : "LowQuality"
+  "GoodQuality":
+    color : "#29c429"
+    oldName : "GoodQuality"
+    oldNameHeader : "GoodQuality"
+    newName : "GoodQuality"
+  "unassigned":
+    color : "#ff0000"
+    oldName : "unassigned"
+    oldNameHeader : "unassigned"
+    newName : "unassigned"
+  "chimeric":
+    color : "#EF6F6C"
+    oldName : "chimeric"
+    oldNameHeader : "chimeric"
+    newName : "chimeric"
+stage:
+  "early":
+    color : "#ad037b"
+  "mid":
+    color : "#01818a"
+  "late":
+    color : "#060B4D"
+type:
+  "upstream":
+    color : "#EF6F6C"
+  "downstream":
+    color : "#3AD8DE"
+dataset:
+  "UpD50":
+    color : "#FF00BD"
+  "DownD50":
+    color : "#FF8FE2"
+  "UpD100_1":
+    color : "#02B3A1"
+  "UpD100_2":
+    color : "#01818A"
+  "DownD100":
+    color : "#00C217"
+  "UpD300":
+    color : "#0C1596"
+  "DownD250":
+    color : "#2C344D"
+cellID_newName_type:
+  "CTL04E_upstream":
+    color : "#FF0054"
+  "CTL04E_downstream":
+    color : "#FF92B6"
+  "CTL02A_upstream":
+    color : "#7B00FF"
+  "CTL02A_downstream":
+    color : "#BB8BEE"
+  "CTL08A_upstream":
+    color : "#0FB248"
+  "CTL08A_downstream":
+    color : "#A3E4BA"
+  "CTL01_upstream":
+    color : "#DBB807"
+  "CTL01_downstream":
+    color : "#E6DBA2"
