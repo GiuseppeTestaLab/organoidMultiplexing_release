@@ -5,34 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Project</title>
+    <title>Organoid Multiplexing</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <main>
-        <h1>Project Name - Long version</h1>
-        <p>Template github repository that can be used e.g. for the publication of the code when submitting a paper. </p>
-<p>GH Actions are set to:</p>
-<ol>
-<li>convert the ipynb to html, create an index html page and store all the pages in a separate branch, where they can be published as static website with github pages</li>
-<li>create a README index file for the repo that contains all the links to the html and ipynb files.</li>
-</ol>
-<p>Feel free to fork it for "publishing" your own notebooks, and <a href="mailto:matteo.bonfanti@fht.org">contact me</a> with suggestions for improvements.</p>
+        <h1>Organoid Multiplexing</h1>
+        <p>This repo contains the code used to analyze Single cell data of organoid Multiplexing</p>
+<p><img alt="plot" src="./data/resources/ghFig/GitHome.png" /></p>
+<p>Docker image for main analysis can be retrieved via docker pull testalab/downstream:organoidMultiplexing-1.1.0</p>
+<p>After alignment of each sample, Cellranger's output: features, barcodes and count matrix should be placed in data/Sample*/filtered_feature_bc_matrix respective directories</p>
+<p>Additional resources should be placed in data/resources. </p>
+<p>genes.gtf (gex-GRCh38-2020-A gtf), KOLF2C1 wgs data from hipsci, single cell eqtl data from jerber et al. (https://doi.org/10.1038/s41588-021-00801-6)</p>
+<p>In addition pipeline for consensus deconvolution can be found at ... and its docker image</p>
+<p>Finally VarAdata were generated using the SCanSNP version ... specifying --mode matrixgen</p>
     <p>
 
-<h2><a href=prova.html>Test Notebook</a></h2><p>This is a <strong>test notebook</strong>. A very basic example of notebook, just to exemplify how the
-GitHub Actions defined in this repository work.</p>
-<p>If you want to add your own notebooks, just put the ipynb files in the root project folder and then
-customize the "pages" section of the <a href="https://github.com/matbonfanti/project-template/blob/main/resources/config.yaml">config.yaml</a>
-file by including the notebooks that need to be indexed. The "notebook" attribute defines the name
-of the ipynb file and the "description" attribute contains a descriptive string that will be
-included in the README and html index.</p>
-<h2><a href=prova2.html>Test HTML File</a></h2><p>This is a <strong>test HTML file</strong>. This example shows how HTML files can be directly included in the 
-final repository and linked from the repository index.</p>
+<h2><a href=00_HVGs/01_HVGs_joining.html>01_HVGs_joining.ipynb</a></h2>
+<h2><a href=01_PreProcess/01.1_Dataset_Preprocessing_DownD50.html>01.1_Dataset_Preprocessing_DownD50.ipynb</a></h2>
+<h2><a href=01_PreProcess/01.2_Dataset_Preprocessing_UpD50.html>01.2_Dataset_Preprocessing_UpD50.ipynb</a></h2>
+<h2><a href=01_PreProcess/01.3_Dataset_Preprocessing_DownD100.html>01.3_Dataset_Preprocessing_DownD100.ipynb</a></h2>
+<h2><a href=01_PreProcess/01.4_Dataset_Preprocessing_UpD100_1.html>01.4_Dataset_Preprocessing_UpD100_1.ipynb</a></h2>
+<h2><a href=01_PreProcess/01.5_Dataset_Preprocessing_UpD100_2.html>01.5_Dataset_Preprocessing_UpD100_2.ipynb</a></h2>
+<h2><a href=01_PreProcess/01.6_Dataset_Preprocessing_DownD250.html>01.6_Dataset_Preprocessing_DownD250.ipynb</a></h2>
+<h2><a href=01_PreProcess/01.7_Dataset_Preprocessing_UpD300.html>01.7_Dataset_Preprocessing_UpD300.ipynb</a></h2>
+<h2><a href=01_PreProcess/02_Dataset_Merging.html>02_Dataset_Merging.ipynb</a></h2>
+<h2><a href=01_PreProcess/03_Dataset_Not_Integrated_JointScale.html>03_Dataset_Not_Integrated_JointScale.ipynb</a></h2>
+<h2><a href=01_PreProcess/04_Dataset_Integration_Harmony.html>04_Dataset_Integration_Harmony.ipynb</a></h2>
+<h2><a href=01_PreProcess/05_Clusters_Annotation_All.html>05_Clusters_Annotation_All.ipynb</a></h2>
+<h2><a href=02_Exploration/05.2_inGestion.html>05.2_inGestion.ipynb</a></h2>
+<h2><a href=02_Exploration/06_Exploration.html>06_Exploration.ipynb</a></h2>
+<h2><a href=02_Exploration/07_Paga.html>07_Paga.ipynb</a></h2>
+<h2><a href=02_Exploration/08_DA.html>08_DA.ipynb</a></h2>
+<h2><a href=03_Trajectories/08.0_Astrocytes_HVGs.html>08.0_Astrocytes_HVGs.ipynb</a></h2>
+<h2><a href=03_Trajectories/08.1_Astrocytes_Lineage.html>08.1_Astrocytes_Lineage.ipynb</a></h2>
+<h2><a href=03_Trajectories/09.0_Cajal_HVGs.html>09.0_Cajal_HVGs.ipynb</a></h2>
+<h2><a href=03_Trajectories/09.1_Cajal_Lineage.html>09.1_Cajal_Lineage.ipynb</a></h2>
+<h2><a href=03_Trajectories/10.0_Exc_HVGs.html>10.0_Exc_HVGs.ipynb</a></h2>
+<h2><a href=03_Trajectories/10.1_Exc_Lineage.html>10.1_Exc_Lineage.ipynb</a></h2>
+<h2><a href=03_Trajectories/11.0_Interneurons_HVGs.html>11.0_Interneurons_HVGs.ipynb</a></h2>
+<h2><a href=03_Trajectories/11.1_Interneurons_Lineage.html>11.1_Interneurons_Lineage.ipynb</a></h2>
+<h2><a href=03_Trajectories/12.0_MigratingNeurons_HVGs.html>12.0_MigratingNeurons_HVGs.ipynb</a></h2>
+<h2><a href=03_Trajectories/12.1_MigratingNeurons_Lineage.html>12.1_MigratingNeurons_Lineage.ipynb</a></h2>
+<h2><a href=04_ASE/13.0_varAnndata_prep_new.html>13.0_varAnndata_prep_new.ipynb</a></h2>
+<h2><a href=04_ASE/13.1_SantyCheck.html>13.1_SantyCheck.ipynb</a></h2>
+<h2><a href=04_ASE/13.2_ASE_explo.html>13.2_ASE_explo.ipynb</a></h2>
+<h2><a href=05_LinesBalance/15_Lines_Balance.html>15_Lines_Balance.ipynb</a></h2>
+<h2><a href=05_LinesBalance/16_Tools_comparison.html>16_Tools_comparison.ipynb</a></h2>
 
-      <p>Here you can put some final remarks.
-These will be appended at the end of the README / index page.</p>
+      <p>Repository will be complete upon publication</p>
     </p>
     </main>
     <script src="index.js"></script>
