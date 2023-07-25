@@ -44,7 +44,9 @@ jobs:
              do jupyter nbconvert --to html $nb
           done
           mkdir notebooks-html/
-          mv *.html notebooks-html/
+          if ls *.html >/dev/null 2>&1; then
+             mv *.html notebooks-html/
+          fi
           
           for dir in */; do
             # Check if it's a directory (excluding symbolic links)
