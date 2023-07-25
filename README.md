@@ -8,7 +8,7 @@ This repo contains the code used to analyze Single cell data of organoid Multipl
 ![plot](./data/resources/ghFig/GitHome.png)
 
 
-Docker image for main analysis: testalab/downstream:organoidMultiplexing-1.1.0
+Docker image for main analysis can be retrieved via docker pull testalab/downstream:organoidMultiplexing-1.1.0
 
 After alignment of each sample, Cellranger's output: features, barcodes and count matrix should be placed in data/Sample*/filtered_feature_bc_matrix respective directories
 
