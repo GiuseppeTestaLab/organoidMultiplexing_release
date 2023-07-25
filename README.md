@@ -3,7 +3,7 @@
 
 **Organoid Multiplexing**
 
-This repo contains the code used to analyze Single cell data of organoid Multiplexing
+This repo contains the code used to analyze Single cell data of organoid Multiplexing manuscript
 
 ![plot](./data/resources/ghFig/GitHome.png)
 
