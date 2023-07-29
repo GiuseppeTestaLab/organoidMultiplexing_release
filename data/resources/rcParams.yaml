@@ -3,7 +3,8 @@ rcParams:
  figure.dpi: 80
  savefig.dpi: 500 
  figure.figsize: [10,10]
- axes.facecolor: white
+ axes.facecolor: None
+ figure.facecolor: None
 
 dotSize: 20
 

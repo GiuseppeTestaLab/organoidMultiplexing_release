@@ -9,3 +9,4 @@ leidenAnnotated_colors:
   OuterRadialGliaAstrocytes: '#b5bd61'
   ProliferatingProgenitors: '#17becf'
   RadialGliaProgenitors: '#aec7e8'
+  intermediateProgenitors: '#ffbb78'
