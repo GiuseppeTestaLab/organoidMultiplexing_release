@@ -274,7 +274,6 @@ Links: [jupyter notebook](05_LinesBalance/16_Tools_comparison.ipynb) and [html f
 
 
 
-Repository will be complete upon publication
 
 
 ---
