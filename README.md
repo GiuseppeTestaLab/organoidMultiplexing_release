@@ -17,7 +17,7 @@ Additional resources should be placed in data/resources.
 genes.gtf (gex-GRCh38-2020-A gtf), KOLF2C1 wgs data from hipsci, single cell eqtl data from jerber et al. (https://doi.org/10.1038/s41588-021-00801-6)
 
 
-In addition pipeline for consensus deconvolution can be found at ... and its docker image
+In addition pipeline for consensus deconvolution can be found at https://github.com/GiuseppeTestaLab/demultiplexing-workflow
 
 Finally VarAdata were generated using the SCanSNP version https://github.com/GiuseppeTestaLab/SCanSNP specifying --mode matrixgen
 
