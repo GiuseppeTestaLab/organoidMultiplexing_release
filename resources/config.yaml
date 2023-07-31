@@ -18,7 +18,7 @@ subtitle: |
    
    In addition pipeline for consensus deconvolution can be found at ... and its docker image
    
-   Finally VarAdata were generated using the SCanSNP version ... specifying --mode matrixgen
+   Finally VarAdata were generated using the SCanSNP version https://github.com/GiuseppeTestaLab/SCanSNP specifying --mode matrixgen
 
 
 
