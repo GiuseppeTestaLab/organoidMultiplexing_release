@@ -19,3 +19,17 @@ checkMBSize.sh
 **Jerber_scASE.tsv
 data/output/*
 **backup
+06_Spatial
+data/visium
+GT_*.log
+GT_*.bash
+submit*
+ThesisFigs
+**__pycache__**
+combined_LD.parsed.txt
+combined_eQTLs.parsed.tsv
+slurm_singularity_service.log
+**CellplexOuts
+data/cellplexDS/*
+data/census_seq/*
+data/imaging_data/*
