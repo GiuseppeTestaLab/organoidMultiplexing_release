@@ -5,6 +5,7 @@ data/*_raw_feature_bc_matrix
 data/MultiSeq_annotation_prefiltered_mtx.csv
 **/.*
 **/*.gz
+**/*xlsx
 **filteredCells.tsv
 **.mtx
 singularity_open_ports.dat

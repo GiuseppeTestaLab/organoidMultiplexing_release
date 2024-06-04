@@ -115,3 +115,47 @@ lines:
     oldName : "chimeric"
     oldNameHeader : "chimeric"
     newName : "chimeric"
+stage:
+  "early":
+    color : "#ad037b"
+  "mid":
+    color : "#01818a"
+  "late":
+    color : "#060B4D"
+type:
+  "upstream":
+    color : "#EF6F6C"
+  "downstream":
+    color : "#3AD8DE"
+dataset:
+  "UpD50":
+    color : "#FF00BD"
+  "DownD50":
+    color : "#FF8FE2"
+  "UpD100_1":
+    color : "#02B3A1"
+  "UpD100_2":
+    color : "#01818A"
+  "DownD100":
+    color : "#00C217"
+  "UpD300":
+    color : "#0C1596"
+  "DownD250":
+    color : "#2C344D"
+cellID_newName_type:
+  "CTL04E_upstream":
+    color : "#FF0054"
+  "CTL04E_downstream":
+    color : "#FF92B6"
+  "CTL02A_upstream":
+    color : "#7B00FF"
+  "CTL02A_downstream":
+    color : "#BB8BEE"
+  "CTL08A_upstream":
+    color : "#0FB248"
+  "CTL08A_downstream":
+    color : "#A3E4BA"
+  "CTL01_upstream":
+    color : "#DBB807"
+  "CTL01_downstream":
+    color : "#E6DBA2"
