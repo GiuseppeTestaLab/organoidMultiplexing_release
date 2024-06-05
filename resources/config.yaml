@@ -150,3 +150,47 @@ pages:
   16_Tools_comparison.ipynb:
     notebook: "05_LinesBalance/16_Tools_comparison.ipynb"
     description: |
+
+  17_Sample1_Benchmarking.ipynb:
+    notebook: "07_cellPlex_benchmark/00a_Sample1_Benchmarking.ipynb"
+    description: |
+
+  18_Sample2_Benchmarking.ipynb:
+    notebook: "07_cellPlex_benchmark/00a_Sample2_Benchmarking.ipynb"
+    description: |
+
+  19_BenchmarkingPlots.ipynb:
+    notebook: "07_cellPlex_benchmark/00b_BenchmarkingPlots.ipynb"
+    description: |
+
+  20_QC_Filtering.ipynb:
+    notebook: "07_cellPlex_benchmark/01_QC_Filtering.ipynb"
+    description: |
+
+  21_Integration.ipynb:
+    notebook: "07_cellPlex_benchmark/02_Integration.ipynb"
+    description: |
+
+  22_CBO_VisualizationAndModelling.ipynb:
+    notebook: "08_Scalability/02_CBO_VisualizationAndModeling.ipynb"
+    description: |
+
+  23_PSC_VisualizationAndModelling.ipynb:
+    notebook: "08_Scalability/03_PSC_VisualizationAndModeling.ipynb"
+    description: |
+
+  24_CensusSeq.ipynb:
+    notebook: "08_Scalability/04_CensusSeq.ipynb"
+    description: |
+
+  25_CorrelateGrowths.ipynb:
+    notebook: "08_Scalability/05_CorrelateGrowths.ipynb"
+    description: |
+
+  26_Recoverable_lines.ipynb:
+    notebook: "08_Scalability/06_Recoverable_lines.ipynb"
+    description: |
+
+  27_Scalability_comparison.ipynb:
+    notebook: "08_Scalability/07_Scalability_comparison.ipynb"
+    description: |
