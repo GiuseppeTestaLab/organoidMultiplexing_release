@@ -275,6 +275,94 @@ Links: [jupyter notebook](05_LinesBalance/16_Tools_comparison.ipynb) and [html f
 
 
 
+## 17_Sample1_Benchmarking.ipynb
+
+Links: [jupyter notebook](07_cellPlex_benchmark/00a_Sample1_Benchmarking.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/07_cellPlex_benchmark/00a_Sample1_Benchmarking.html).
+
+
+
+
+
+## 18_Sample2_Benchmarking.ipynb
+
+Links: [jupyter notebook](07_cellPlex_benchmark/00a_Sample2_Benchmarking.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/07_cellPlex_benchmark/00a_Sample2_Benchmarking.html).
+
+
+
+
+
+## 19_BenchmarkingPlots.ipynb
+
+Links: [jupyter notebook](07_cellPlex_benchmark/00b_BenchmarkingPlots.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/07_cellPlex_benchmark/00b_BenchmarkingPlots.html).
+
+
+
+
+
+## 20_QC_Filtering.ipynb
+
+Links: [jupyter notebook](07_cellPlex_benchmark/01_QC_Filtering.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/07_cellPlex_benchmark/01_QC_Filtering.html).
+
+
+
+
+
+## 21_Integration.ipynb
+
+Links: [jupyter notebook](07_cellPlex_benchmark/02_Integration.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/07_cellPlex_benchmark/02_Integration.html).
+
+
+
+
+
+## 22_CBO_VisualizationAndModelling.ipynb
+
+Links: [jupyter notebook](08_Scalability/02_CBO_VisualizationAndModeling.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/08_Scalability/02_CBO_VisualizationAndModeling.html).
+
+
+
+
+
+## 23_PSC_VisualizationAndModelling.ipynb
+
+Links: [jupyter notebook](08_Scalability/03_PSC_VisualizationAndModeling.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/08_Scalability/03_PSC_VisualizationAndModeling.html).
+
+
+
+
+
+## 24_CensusSeq.ipynb
+
+Links: [jupyter notebook](08_Scalability/04_CensusSeq.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/08_Scalability/04_CensusSeq.html).
+
+
+
+
+
+## 25_CorrelateGrowths.ipynb
+
+Links: [jupyter notebook](08_Scalability/05_CorrelateGrowths.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/08_Scalability/05_CorrelateGrowths.html).
+
+
+
+
+
+## 26_Recoverable_lines.ipynb
+
+Links: [jupyter notebook](08_Scalability/06_Recoverable_lines.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/08_Scalability/06_Recoverable_lines.html).
+
+
+
+
+
+## 27_Scalability_comparison.ipynb
+
+Links: [jupyter notebook](08_Scalability/07_Scalability_comparison.ipynb) and [html file](https://GiuseppeTestaLab.github.io/organoidMultiplexing_release/08_Scalability/07_Scalability_comparison.html).
+
+
+
+
+
 
 ---
 *Note: this README file has been generated automatically.* <br>
