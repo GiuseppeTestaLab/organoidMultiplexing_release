@@ -6,6 +6,8 @@ data/MultiSeq_annotation_prefiltered_mtx.csv
 **/.*
 **/*.gz
 **/*xlsx
+**/*pip_timestamp.*.txt
+**/*renv_timestamp.*.txt
 **filteredCells.tsv
 **.mtx
 singularity_open_ports.dat
