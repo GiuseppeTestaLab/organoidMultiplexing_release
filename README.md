@@ -9,6 +9,7 @@ This repo contains the code used to analyze Single cell data of organoid Multipl
 
 
 Docker image for main analysis can be retrieved via docker pull testalab/downstream:organoidMultiplexing-1.1.0
+Docker image to run image analysis (scripts included in 08_Scalability/imaging_scripts/ and notebooks 08_Scalability/01_CBO_SegmentationAndQuantification.ipynb, 08_Scalability/02_CBO_VisualizationAndModeling.ipynb and 08_Scalability/03_PSC_VisualizationAndModeling.ipynb) can be retrieved via docker pull sddcunit/downstream:Imaging-0.3.2
 
 After alignment of each sample, Cellranger's output: features, barcodes and count matrix should be placed in data/Sample*/filtered_feature_bc_matrix respective directories
 
