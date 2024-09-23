@@ -15035,6 +15035,22 @@ jupyter: python3
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">px_size</span> <span class="o">=</span> <span class="p">[]</span>
 
 <span class="k">for</span> <span class="n">img</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">folder</span><span class="p">):</span>
@@ -15658,10 +15674,10 @@ jupyter: python3
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;Area(microns)&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;area&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;PixelSize&quot;</span><span class="p">]</span>
-<span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;Perimeter(microns)&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;perimeter&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;PixelSize&quot;</span><span class="p">]</span>
-<span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;AreaConvex(microns)&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;area_convex&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;PixelSize&quot;</span><span class="p">]</span>
-<span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;EquivalentDiameterArea(microns)&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;equivalent_diameter_area&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;PixelSize&quot;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;Area (um2)&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;area&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;PixelSize&quot;</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;Perimeter(microns)&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;perimeter&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;PixelSize&quot;</span><span class="p">])</span>
+<span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;AreaConvex (um2)&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;area_convex&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;PixelSize&quot;</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;EquivalentDiameterArea(microns)&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;equivalent_diameter_area&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">df_to_append</span><span class="p">[</span><span class="s2">&quot;PixelSize&quot;</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -15777,7 +15793,7 @@ jupyter: python3
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_to_append</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;organoidMultiplexing_growthCurves_quant.csv&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_to_append</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;./tables/organoidMultiplexing_growthCurves_quant.csv&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
